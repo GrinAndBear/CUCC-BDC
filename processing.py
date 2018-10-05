@@ -786,7 +786,7 @@ def gen_train(feat_begin, feat_end, label, train_num, slide_day):
     train = train.fillna(0)
     print(train.info())
 
-    train.to_csv('../input/v16_train%d.csv' % train_num, index=None)
+    train.to_csv('./input/train%d.csv' % train_num, index=None)
     del train
 
 
