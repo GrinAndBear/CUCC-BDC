@@ -56,6 +56,6 @@ fs = pd.DataFrame(columns=['feature','score'])
 fs['feature'] = list(gbm.feature_name())
 fs['score'] = list(gbm.feature_importance())
 fs.sort_values(by='score',ascending=False,inplace=True)
-fs.to_csv('../input/lgb_feature_score_0723_0.csv',index=None)
+fs.to_csv('../input/lgb_feature_score.csv',index=None)
 
 
