@@ -1,4 +1,4 @@
-# -2018-
+# 中国高校计算机大赛
 precdict_active_user
 本次比赛的内容请见https://www.kesci.com/home/competition/5ab8c36a8643e33f5138cba4
 
